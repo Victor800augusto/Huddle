@@ -32,7 +32,7 @@ h2 {
     font-weight: 700;
 }   
 h3 {
-    font-size: 1rem;
+    font-size: 1.75em;
     font-family: 'Poppins';
     font-weight: 700;
 }
@@ -201,4 +201,16 @@ h5{
         text-align: center;
         padding: 20px;
     }
+}
+
+
+/* Ready community */
+
+.ready-community {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.ready-community h3 {
+    margin: 20px 0;
 }
