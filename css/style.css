@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+}
+body{
+    font-family: Open Sans;
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+h1 {
+    font-size: 1.5rem;
+    font-family: Poppins;
+}
+h2 {
+    font-size: 1.25rem;
+    font-family: Poppins;
+}   
+h3 {
+    font-size: 1rem;
+    font-family: Poppins;
+}
+h4 {
+    font-size: 0.6875rem;
+    font-family: Poppins;
+}
+
+.flex {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.imagem-container {
+    max-width: 500px;
+}
