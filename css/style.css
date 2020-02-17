@@ -53,6 +53,56 @@ h4 {
     flex-wrap: wrap;
 }
 
+/* Header */
+
+.header {
+    padding: 40px;
+}
+
+.header-logo {
+    max-width: 200px;
+}
+
+.header div {
+    justify-content: space-between;
+}
+
+.header-btn {
+    background: none;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: hsl(322, 100%, 66%);
+}
+
+.header-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 420px) {
+
+    .header {
+        padding: 20px 10px;
+    }
+
+    .header-logo {
+        max-width: 150px;
+        align-self: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
