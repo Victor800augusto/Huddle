@@ -42,6 +42,7 @@ h4 {
     font-weight: 700;
 }
 h5{
+    font-size: 1.25em;
     font-family: 'Poppins';
     font-weight: 700;
 }
@@ -201,6 +202,10 @@ h5{
         text-align: center;
         padding: 20px;
     }
+
+    .advantages-container {
+        flex-direction: column-reverse;
+    }
 }
 
 
@@ -213,4 +218,86 @@ h5{
 
 .ready-community h3 {
     margin: 20px 0;
+}
+
+/* Footer */
+
+.footer {
+    background: hsl(192, 100%, 9%);
+    color: hsl(207, 100%, 98%);
+    padding: 80px;
+}
+
+.footer ul {
+    justify-content: space-between;
+}
+
+.footer-infos {
+    max-width: 450px;
+}
+
+.footer-newsletter {
+    max-width: 500px;
+}
+
+.footer h5 {
+    margin: 10px 0;
+}
+
+.footer-phone {
+    background: url(../imagens/icon-phone.svg) no-repeat;
+    padding: 10px;
+    position: relative;
+    bottom: -31px;
+    right: 5px;
+}
+
+.p-phone {
+    margin-left: 20px;
+}
+
+.footer-email {
+    background: url(../imagens/icon-email.svg) no-repeat;
+    padding: 10px;
+    position: relative;
+    bottom: -31px;
+    right: 5px;
+}
+
+.p-email {
+    margin-left: 20px;
+}
+
+.footer-p1 {
+    max-width: 300px;
+    margin: 10px 0;
+}
+
+.footer-p2 {
+    max-width: 330px;
+}
+
+.form-email {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 15px 0 0;
+}
+
+.btn-subscribe {
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family:'Open Sans';
+}
+
+@media (max-width: 950px) {
+
+    .footer {
+        padding: 20px;
+    }
 }
