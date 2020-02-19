@@ -168,12 +168,16 @@ h5{
     .build-the-community ul li{
         margin: 0 20px
     }
+
+    .build-the-community h1 {
+        font-size: 4em;
+    }
 }
 
 /* Advantages */
 
 .advantages {
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .advantages h4{
@@ -184,27 +188,54 @@ h5{
     max-width: 450px;
 }
 
-.advantages > ul li {
-   margin: 40px auto;
-}
 
-.advantages ul li ul li{
+
+.advantages ul li{
     align-self: center;
 }
 
+.advantages ul li:last-child{
+    margin-left: 40px;
+}
+
 .imagem-container {
+    margin-left: 20px;
     max-width: 450px;
+}
+
+.your-users, .grow-together {
+    background: hsl(207, 100%, 98%);
+}
+
+.flowing-conversation {
+    margin: 80px auto;
+}
+
+.advantages ul {
+    padding: 40px 0;
 }
 
 @media (max-width: 1000px) {
 
     .advantages {
         text-align: center;
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .advantages-container {
+        flex-direction: column;
+    }
+
+    .advantages-container-reverse {
         flex-direction: column-reverse;
+    }
+
+    .advantages ul li:last-child{
+        margin-left: 0;
+    }
+
+    .advantages ul {
+        padding: 40px 20px;
     }
 }
 
@@ -225,7 +256,12 @@ h5{
 .footer {
     background: hsl(192, 100%, 9%);
     color: hsl(207, 100%, 98%);
-    padding: 80px;
+    padding: 20px 80px 80px 80px;
+}
+
+.footer-logo {
+    filter:brightness(0) invert(1);
+    width: 150px;
 }
 
 .footer ul {
@@ -253,7 +289,7 @@ h5{
 }
 
 .p-phone {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .footer-email {
@@ -265,7 +301,7 @@ h5{
 }
 
 .p-email {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .footer-p1 {
