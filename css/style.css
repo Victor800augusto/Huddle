@@ -341,9 +341,38 @@ h5{
     font-family:'Open Sans';
 }
 
+.btn-subscribe:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 950px) {
 
     .footer {
         padding: 20px;
+    }
+
+    .footer-newsletter {
+        margin-bottom: 60px;
+    }
+
+    .footer > ul{
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+
+    .footer-p2 {
+        max-width: 300px;
+    }
+
+    .formulario {
+        max-width: 300px;
+    }
+
+    .form-email {
+        margin: 20px 0 10px 0;
+    }
+
+    .btn-subscribe {
+        margin-left: 160px;
     }
 }
