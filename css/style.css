@@ -285,7 +285,6 @@ h5{
     padding: 10px;
     position: relative;
     bottom: -31px;
-    right: 5px;
 }
 
 .p-phone {
@@ -297,7 +296,6 @@ h5{
     padding: 10px;
     position: relative;
     bottom: -31px;
-    right: 5px;
 }
 
 .p-email {
@@ -319,6 +317,18 @@ h5{
     border: none;
     border-radius: 5px;
     margin: 20px 15px 0 0;
+}
+
+.icones-sociais {
+    margin-top: 30px;
+}
+
+.icones-sociais a{
+    margin: 0 5px;
+}
+
+.icones-sociais a:first-child{
+    margin: 0 5px 0 0;
 }
 
 .btn-subscribe {
